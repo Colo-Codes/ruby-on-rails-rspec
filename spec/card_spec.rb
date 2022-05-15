@@ -1,5 +1,5 @@
 # This is an example group. The 'describe' keyword creates an example group (a group of 1 or more tests or examples).
-RSpec.describe 'Card' do # This will describe what it is we are testing: a Card class
+RSpec.describe 'Card' do # This will describe what it is we are testing: a Card class. This is an example group.
     # We are going to create a single example by using the keyword 'it'
     # specify 'has a type' do # 'specify' is an alias to 'it'.
     it 'has a type' do # This is an example. It is a test. Don't mention how it is build, but what it is doing.
