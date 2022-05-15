@@ -1,3 +1,5 @@
+# This is a group (math calculations) containing en example (does basic math)
+# with four different assertions (the 'expect' methods).
 RSpec.describe 'math calculations' do
     it 'does basic math' do
         expect(1 + 1).to eq(2)
